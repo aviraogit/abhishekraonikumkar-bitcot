@@ -29,7 +29,7 @@ const Contact = () => {
    </Link>
 
 
-  <div className="h-50 bg-dark p-5 pt-2 rounded-0">
+  <div className="bg-dark p-5 pt-2 rounded-0">
 
 
 {/* //heading */}
@@ -49,6 +49,8 @@ const Contact = () => {
     {/* <input type="text" className="w-50 m-2 p-2 m-2" placeholder='Search here...' /> */}
 
 {/* //search bar */}
+<center>
+
     <input
   type="text"
   className="w-50 m-2 p-2 m-2"
@@ -56,6 +58,7 @@ const Contact = () => {
   value={searchTerm}
   onChange={(e) => setSearchTerm(e.target.value)}
 />
+  </center>
 
 //ListItem
 
